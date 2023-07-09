@@ -1,0 +1,78 @@
+body {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.box {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.imagen {
+  max-width: 200px;
+  padding: none;
+  max-height: 200px;
+}
+
+.imagenes ul {
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   margin: 0px;
+}
+.imagenes li {
+   list-style-type: none;
+   display: inline;
+   padding-right: 5px;
+}
+
+.meme {
+  border: #282c34;
+  border-style: double;
+}
